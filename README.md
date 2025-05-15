@@ -36,3 +36,7 @@ Using the same URL in both programs ensures they connect to the same message bro
 ### Sending and Processing Event
 Sending events to subscriber when run `cargo run` on publisher, it sent 5 message to the subscriber.
 ![Sending and Processing Event](/public/SendingEvent.png)
+
+### Monitoring Chart Based on Publisher
+The spike happen because of the publisher sending it without a delay between them which mean there's no rates limit that will limit them allowing the publisher to spike the running it without a limit.
+![Monitoring Chart Based on Publisher](/public/MonitoringChart.png)
