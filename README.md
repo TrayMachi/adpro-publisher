@@ -32,3 +32,7 @@ Using the same URL in both programs ensures they connect to the same message bro
 ## Images
 ### Running Rabbit MQ
 ![Running Rabbit MQ](/public/RunningRabbitMQ.png)
+
+### Sending and Processing Event
+Sending events to subscriber when run `cargo run` on publisher, it sent 5 message to the subscriber.
+![Sending and Processing Event](/public/SendingEvent.png)
