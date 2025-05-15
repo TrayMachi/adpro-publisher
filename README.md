@@ -28,3 +28,7 @@ This URL can be broken down into:
 - Port: `5672` - Standard AMQP port
 
 Using the same URL in both programs ensures they connect to the same message broker instance, enabling communication between the publisher and subscriber through the message queue. Thus the shared configuration ensures both programs connect to the same message broker instance, allowing them to communicate through it.
+
+## Images
+### Running Rabbit MQ
+![Running Rabbit MQ](/public/RunningRabbitMQ.png)
